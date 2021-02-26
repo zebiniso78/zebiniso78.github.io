@@ -21,6 +21,11 @@ h2, h1 {
      color: seagreen;
      text-align: left;
 }
+
+h1::first-letter {
+ font-size: 58px;
+ color: green;
+}
 img {
     width: 450px;
     height: 350px;
@@ -33,4 +38,10 @@ text {
 
 a {
     color:maroon;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
 }
